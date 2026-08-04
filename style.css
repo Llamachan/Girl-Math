@@ -56,3 +56,16 @@ button:hover {
 button:active {
     transform: scale(0.95);
 }
+.operator {
+    background: #ff78b0;
+    color: white;
+}
+
+.equals {
+    background: #ff5fa2;
+    color: white;
+}
+
+.scientific {
+    background: #ffd8eb;
+}
