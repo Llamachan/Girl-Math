@@ -20,3 +20,39 @@ body {
     background: white;
     box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
+.display {
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    background: #fff6fb;
+    font-size: 2rem;
+    text-align: right;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    padding: 18px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #ffb6d9;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #ff8fc3;
+}
+
+button:active {
+    transform: scale(0.95);
+}
