@@ -26,15 +26,15 @@ function scientific(operation) {
 
         switch (operation) {
             case "sin":
-                display.value = Math.sin(value * Math.PI / 180);
+                display.value = Math.sin(value * Math.PI / 180).toFixed(6);
                 break;
 
             case "cos":
-                display.value = Math.cos(value * Math.PI / 180);
+                display.value = Math.cos(value * Math.PI / 180).toFixed(6);
                 break;
 
             case "tan":
-                display.value = Math.tan(value * Math.PI / 180);
+                display.value = Math.tan(value * Math.PI / 180).toFixed(6);
                 break;
 
             case "sqrt":
@@ -49,7 +49,7 @@ function scientific(operation) {
                 display.value = Math.log(value);
                 break;
         }
-    } catch (error) {
+    } catch {
         display.value = "Error";
     }
 }
