@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffd6e8, #ffeaf4);
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 420px;
+    padding: 20px;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
