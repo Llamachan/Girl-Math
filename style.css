@@ -69,3 +69,21 @@ button:active {
 .scientific {
     background: #ffd8eb;
 }
+
+button:focus {
+    outline: 3px solid #ff69b4;
+    outline-offset: 2px;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.calculator {
+    transition: transform 0.2s ease;
+}
+
+.calculator:hover {
+    transform: translateY(-4px);
+}

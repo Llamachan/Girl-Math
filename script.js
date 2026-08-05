@@ -18,6 +18,21 @@ function calculate() {
     } catch (error) {
         display.value = "Error";
     }
+}function calculate() {
+    try {
+        if (display.value.trim() === "") return;
+
+        const result = eval(display.value);
+
+        if (!Number.isFinite(result)) {
+            display.value = "Error";
+            return;
+        }
+
+        display.value = result;
+    } catch {
+        display.value = "Error";
+    }
 }
 
 function scientific(operation) {
@@ -53,3 +68,24 @@ function scientific(operation) {
         display.value = "Error";
     }
 }
+
+document.addEventListener("keydown", (event) => {
+    const key = event.key;
+
+    if (!isNaN(key) || "+-*/().".includes(key)) {
+        append(key);
+    }
+
+    if (key === "Enter") {
+        event.preventDefault();
+        calculate();
+    }
+
+    if (key === "Backspace") {
+        deleteLast();
+    }
+
+    if (key === "Escape") {
+        clearDisplay();
+    }
+});
