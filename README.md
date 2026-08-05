@@ -4,7 +4,7 @@ A pookiefied scientific calculator
 A cute, pastel-themed scientific calculator built using HTML, CSS and JavaScript.
 
 ## *Live Demo*
-✨ https://yourusername.github.io/girl-math-calculator/ ✨
+✨ https://llamachan.github.io/Girl-Math/ ✨
 ## Features
 
 - Basic arithmetic
