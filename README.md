@@ -26,3 +26,26 @@ git clone <repository-url>
 ```
 
 Open `index.html` in your browser.
+
+## Folder Structure
+
+```
+calculator/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## Screenshots
+
+Coming soon.
+
+## Future Improvements
+
+- History panel
+- Theme switcher
+- Memory functions
+- Keyboard shortcuts expansion
+- Unit conversion
