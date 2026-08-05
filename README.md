@@ -49,3 +49,18 @@ Coming soon.
 - Memory functions
 - Keyboard shortcuts expansion
 - Unit conversion
+
+## Skills Demonstrated
+
+- DOM Manipulation
+- Event Handling
+- JavaScript Functions
+- CSS Grid
+- Responsive Design
+- Git Branching
+- Pull Requests
+- Merge Workflow
+
+## Version
+
+v1.0.0
