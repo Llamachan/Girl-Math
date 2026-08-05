@@ -24,7 +24,7 @@ A cute, pastel-themed scientific calculator built using HTML, CSS and JavaScript
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+[git clone <repository-url>](https://github.com/Llamachan/Girl-Math)
 ```
 
 Open `index.html` in your browser.
@@ -51,17 +51,6 @@ Coming soon.
 - Memory functions
 - Keyboard shortcuts expansion
 - Unit conversion
-
-## Skills Demonstrated
-
-- DOM Manipulation
-- Event Handling
-- JavaScript Functions
-- CSS Grid
-- Responsive Design
-- Git Branching
-- Pull Requests
-- Merge Workflow
 
 ## Version
 
