@@ -18,6 +18,21 @@ function calculate() {
     } catch (error) {
         display.value = "Error";
     }
+}function calculate() {
+    try {
+        if (display.value.trim() === "") return;
+
+        const result = eval(display.value);
+
+        if (!Number.isFinite(result)) {
+            display.value = "Error";
+            return;
+        }
+
+        display.value = result;
+    } catch {
+        display.value = "Error";
+    }
 }
 
 function scientific(operation) {
