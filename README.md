@@ -3,6 +3,8 @@ A pookiefied scientific calculator
 # 🎀 Girl Math - Scientific Calculator
 A cute, pastel-themed scientific calculator built using HTML, CSS and JavaScript.
 
+## *Live Demo*
+✨ https://yourusername.github.io/girl-math-calculator/ ✨
 ## Features
 
 - Basic arithmetic
